@@ -1,0 +1,110 @@
+.slider_bg_1 {
+    background-image: url(../img/banner/google-ads.jpeg);
+}
+.slider_bg_2 {
+    background-image: url(../img/banner/web-app-development.jpeg);
+}
+.slider_bg_3 {
+    background-image: url(../img/banner/banner_3.jpeg);
+}
+.services-hero-section {
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(http://127.0.0.1:8000/img/banner/google-ads.jpeg);
+
+    h3 {
+        padding-top: 5%;
+        font-family: "Poppins", sans-serif;
+        font-size: 60px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        font-weight: 300;
+        line-height: 76px;
+        margin-bottom: 15px;
+        color: #fff;
+
+        span {
+            font-weight: 600;
+            background: -webkit-gradient(
+                linear,
+                left top,
+                right top,
+                from(#9dbfd9),
+                to(#5db2ff)
+            );
+            background: linear-gradient(to right, #9dbfd9 0%, #5db2ff 100%);
+            -webkit-background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+.web-design-img{
+    background-image: url('../img/service/web-design-hero-section.jpeg');
+}
+.web-maintenance-img{
+    background-image: url('../img/service/web-maintenance-hero-section.jpeg');
+}
+.slider_area {
+    .main-h1 {
+        background: linear-gradient(to right, #4390c9 0%, #5db2ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .single_slider {
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        @media #{$mobile_device} {
+            height: 100vh;
+        }
+        .slider_text {
+            h3 {
+                font-family: $font1;
+                font-size: 60px;
+                text-transform: capitalize;
+                letter-spacing: 2px;
+                font-weight: 300;
+                line-height: 76px;
+                margin-bottom: 15px;
+                color: #fff;
+                span {
+                    font-weight: 700;
+                }
+                @media #{$mobile_device} {
+                    font-size: 30px;
+                    //    letter-spacing: 3px;
+                    line-height: 45px;
+                }
+                @media #{$tablet_device} {
+                    font-size: 60px;
+                }
+                @media #{$mid_device} {
+                    font-size: 35px;
+                }
+            }
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                color: #d5d5d5;
+                margin-bottom: 24px;
+                margin-top: 10px;
+                @media #{$mid_device} {
+                    font-size: 16px;
+                }
+                @media #{$mobile_device} {
+                    font-size: 16px;
+                }
+            }
+            .video_service_btn > a {
+                margin-right: 15px;
+                @media #{$mobile_device} {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
